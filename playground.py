@@ -63,3 +63,6 @@ for i in range(0, len(data_top_stories_2)):
 
 # region - add a datetime column
 z_temp_data['extracted_datetime'] = datetime.datetime.now()
+
+
+# endregion - add a datetime column
