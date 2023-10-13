@@ -37,3 +37,9 @@ data = pd.DataFrame.from_dict(z_temp_dict, orient='index')
 data['extracted_time'] = datetime.datetime.now()
 
 # endregion - Convert to DF
+
+z_test = requests.get(
+    'https://hacker-news.firebaseio.com/v0/item/37866767.json?print=pretty'
+)
+
+z_test.json()
